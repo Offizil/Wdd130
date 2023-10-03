@@ -1,0 +1,116 @@
+#content {
+    max-width: 1600px;
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #e4f1df;
+}
+
+header {
+    background-color: white;
+
+}
+
+.home-title {
+    color: #1D3557;
+}
+
+.logobox {
+    width: 80px;
+}
+nav {
+    background-color: #F1FAEE;
+    margin: 25px 0 25px;
+}
+
+
+nav a { 
+    text-align: center;
+    color: #1D3557;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    background-color: #B61624;
+    color: #F1FAEE;
+}
+
+#hero-img {
+    width: 100%;
+}
+#hero-msg h1 {
+    text-align: center;
+}
+
+#hero-msg h4 {
+    text-align: center;
+
+}
+
+.icon {
+    width: 80px;
+}
+
+.button-box {
+    background-color: #e4f1df;
+    text-align: center;
+}
+#background {
+    height: 725px;
+    background-color: #457B9D;
+
+}
+
+#herobox {
+    text-align: center;
+    background-color: #F1FAEE;
+}
+
+.book {
+    text-decoration: none;
+    color: #1D3557;
+    padding: 25px;
+}
+.home-grid {
+    text-align: center;
+    padding-top: 25px;
+}
+.mountains {
+    padding-top: 25px;
+}
+.msg {
+    background-color: #457B9D;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+header {
+    background-color: #1D3557;
+}
+
+footer {
+    background-color: #1D3557;
+    color: #F1FAEE;
+    font-size: 1.2em;
+    
+}
+
+footer a {
+    color: #F1FAEE;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #d3ff5a
+}
+
+.social {
+    background-color: #1D3557;
+}
+
+.join {
+    text-decoration: none;
+}
