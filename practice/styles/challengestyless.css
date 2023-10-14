@@ -1,0 +1,46 @@
+body {
+    background-color: pink;
+    text-align: center;
+}
+
+.educationtitle {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 15px auto;
+    font-weight: bold;
+}
+
+.educationtitle:hover {
+    color:  black;
+}
+
+.quotetext, .quoteowner {
+    font-size: 0.8em;
+    color: white;
+}
+
+
+.listitems {
+    font-weight: bold;
+    width: 20%;
+    margin: 10px auto;
+}
+    
+
+img {
+    display: block;
+    width: 30%;
+    margin: 10px auto;
+}
+
+.secondquote {
+    font-size: 4em;
+    color: white;
+    font-weight: 200;
+    width: 30%;
+    margin: 10px auto;
+}
+
+#active {
+    background-color: pink;
+}
