@@ -10,7 +10,7 @@ body {
     /* background-color: #e4f1df; */
     font-family: var(--paragraph-font);
     font-size: 18px;
-    margin: 40;
+    margin: 40px;
     padding: 0;
 }
 
@@ -171,6 +171,11 @@ nav a:hover{
     font-size: 1.2em;
     color: #ffffff;
 }
+.faq_list {
+    list-style-type: none;
+    padding: 10px;
+    line-height: 38px;
+}
 #map_area {
     width: 321px;
     padding-top: 20px;
@@ -199,7 +204,8 @@ footer {
    width: 100%;
    height: 377px;
    display: grid;
-   grid-template: repeat(8, ifr) / 50% 50%;
+   grid-template-rows: 50% 50%;
+   grid-template-columns: repeat(8, 1fr);
 }
 
 #footerlogo_and_text {
@@ -209,7 +215,6 @@ footer {
     align-self: center;
     margin: 0 auto;
     text-align: center;
-    background-color: none;
     line-height: 32px;
 }
 
@@ -217,6 +222,10 @@ footer {
     text-align: center;
 }
 
+#footer_image {
+    width: 61px;
+    height: 59px;
+}
 
 .footer_logo-link {
     text-align: center;
@@ -227,17 +236,14 @@ footer a {
 }
 #about_us {
     grid-area: 1/3/3/5;
-    align-items: left;
     align-self: center;
 }
 
 #contact_us {
     grid-area: 1/5/3/7;
-    align-items: left;
     align-self: center;
 }
 #our_services  {
     grid-area: 1/7/3/9 ;
-    align-items: left;
     align-self: center;
     }
