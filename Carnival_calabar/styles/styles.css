@@ -112,7 +112,23 @@ nav a:hover{
 #banner_pic {
     grid-area: 1/1/9/6;
     z-index: 1;
+    width: 1360px ;
+    height: 502px;
 }
+#welcome_image {
+    width: 480px;
+    height: 250;
+}
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+#frame_1 {
+    width: 400px;
+    height: 250px;
+    /* padding-left: 222px; */
+}
+
 #button {
     
     background-color: #4F518C;
@@ -138,19 +154,24 @@ nav a:hover{
     /* height: 2198px; */
     grid-template-columns: 6fr 2fr;
     /* grid-template-rows: auto; */
-    grid-template-rows: repeat(5, 1fr) ;
+    grid-template-rows: repeat(5, 1fr);
 }
 .part_1 {
     width: 943px;
     margin-top: 10px;
+    margin-left: 40px;
     background-color:#FFFFFF;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 8px;
     grid-column: 1/7;
     grid-row: auto;
-    /* grid-row: 1/11; */
 }
+
+.part_1 p, h4, img, h2 {
+    padding: 10px;
+}
+
 
 #faq_sec  {
     background-color:#4F518C;
@@ -164,8 +185,8 @@ nav a:hover{
     grid-row: 3/6;
     border: none;
     border-radius: 4px;
+}
 
-    }
 #faq_sec h4 {
     font-weight: bold;
     font-size: 1.2em;
