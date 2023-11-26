@@ -36,6 +36,7 @@ header {
     width: 80px;
 }
 nav {
+    
     grid-template-columns: 2/6;
     grid-row: auto;
     align-items: center;
@@ -225,7 +226,7 @@ footer .social img {
 }
 
 .card-img:hover {
-    opacity: 6;
+    opacity: 0.5;
     transform: scale(1,1);
 }
 .msg h2 {
