@@ -285,7 +285,12 @@ form {
 .container {
   padding: 20px;
   background-color: #ebdcd9;
+  margin-left: 20px;
 }
+
+/* .container h2 {
+    margin-left: 40px;
+} */
 
 input[type=text], input[type=submit] {
   width: 100%;
@@ -341,4 +346,79 @@ input[type=submit]:hover {
     /* align-self: center; */
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+
+/* subpage, page 3 css after here */
+
+
+#p3_gallery {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: inherit ;
+    /* text-align: center; */
+    /* height: auto; */
+    /* gap: 30px; */
+    /* margin: 50px auto; */    
+}
+
+#p3111 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    justify-content: right;
+}
+
+#p3112 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+#p3113 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    justify-content: right;
+} 
+
+#p3114 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+#p3115 {
+    grid-row: 3/4;
+    grid-column: 1/3 span;
+    text-align: center;
+    /* justify-self: center;
+    align-items: center;
+    align-self: center; */ 
+}
+
+.part_3 {
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:#FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+
+#band_info p {
+    padding: 10px;
+    line-height: 1.3em;
+}
+
+#band_info h2 {
+    margin-top: 40px;
+    margin-left: 10px ;
+}
+
+.bttm_img {
+    text-align: center;
+    padding-top: 20px;
+    /* align-items: center;
+    justify-items: center; */
 }
